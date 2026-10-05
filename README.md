@@ -62,6 +62,15 @@ streamlit run app.py
 
 The app will be available at `http://localhost:8501`
 
+The dashboard includes:
+- A disease-model selector with overview cards and training-set metrics
+- Dynamic numeric and categorical patient-input forms based on each saved model
+- Example profiles for quick demonstrations
+- Prediction, confidence, and model information panels
+- CSV export of the screening result
+
+> **Important:** This is an educational screening prototype. Predictions are not medical diagnoses and should not be used as a substitute for professional medical advice.
+
 ## Project Structure
 
 ```
