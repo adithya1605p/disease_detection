@@ -1,0 +1,35 @@
+{
+  "disease": "Stroke",
+  "total_samples": 5109,
+  "train_samples": 4087,
+  "test_samples": 1022,
+  "accuracy": 0.898238747553816,
+  "precision": 0.19318181818181818,
+  "recall": 0.34,
+  "specificity": 0.926954732510288,
+  "f1_score": 0.2463768115942029,
+  "roc_auc": 0.8055555555555556,
+  "brier_score": 0.07029376904980898,
+  "cv_accuracy_mean": 0.8995879102449347,
+  "cv_accuracy_std": 0.004995993751565945,
+  "cv_roc_auc_mean": 0.82632611069119,
+  "cv_roc_auc_std": 0.006821641547228649,
+  "confusion_matrix": {
+    "tp": 17,
+    "fp": 71,
+    "tn": 901,
+    "fn": 33
+  },
+  "feature_importances": {
+    "age": 0.4312770941030353,
+    "avg_glucose_level": 0.17965373734454956,
+    "bmi": 0.17256942160990485,
+    "work_type": 0.04796656125163092,
+    "smoking_status": 0.04449262951415965,
+    "ever_married": 0.03695293063507037,
+    "hypertension": 0.032522216344132424,
+    "gender": 0.018651776513369106,
+    "Residence_type": 0.018119403939022376,
+    "heart_disease": 0.01779422874512552
+  }
+}

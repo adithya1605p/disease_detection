@@ -1,0 +1,514 @@
+{
+  "Pregnancies": {
+    "unit": "count",
+    "category": "Demographics",
+    "normal": [
+      0,
+      4
+    ],
+    "desc": "Number of times pregnant"
+  },
+  "Glucose": {
+    "unit": "mg/dL",
+    "category": "Blood Chemistry",
+    "normal": [
+      70,
+      99
+    ],
+    "desc": "Fasting blood glucose concentration"
+  },
+  "BloodPressure": {
+    "unit": "mmHg",
+    "category": "Vitals",
+    "normal": [
+      60,
+      80
+    ],
+    "desc": "Diastolic blood pressure"
+  },
+  "SkinThickness": {
+    "unit": "mm",
+    "category": "Physical",
+    "normal": [
+      10,
+      28
+    ],
+    "desc": "Triceps skinfold thickness"
+  },
+  "Insulin": {
+    "unit": "\u03bcU/mL",
+    "category": "Blood Chemistry",
+    "normal": [
+      16,
+      166
+    ],
+    "desc": "2-Hour serum insulin"
+  },
+  "BMI": {
+    "unit": "kg/m\u00b2",
+    "category": "Physical",
+    "normal": [
+      18.5,
+      24.9
+    ],
+    "desc": "Body mass index"
+  },
+  "DiabetesPedigreeFunction": {
+    "unit": "score",
+    "category": "Genetics",
+    "normal": [
+      0.08,
+      0.5
+    ],
+    "desc": "Diabetes hereditary genetic score"
+  },
+  "Age": {
+    "unit": "years",
+    "category": "Demographics",
+    "normal": [
+      18,
+      65
+    ],
+    "desc": "Patient chronological age"
+  },
+  "age": {
+    "unit": "years",
+    "category": "Demographics",
+    "normal": [
+      18,
+      65
+    ],
+    "desc": "Patient chronological age"
+  },
+  "sex": {
+    "unit": "binary",
+    "category": "Demographics",
+    "options": {
+      "0": "Female",
+      "1": "Male"
+    },
+    "desc": "Biological sex"
+  },
+  "cp": {
+    "unit": "grade",
+    "category": "Symptoms",
+    "options": {
+      "0": "Typical Angina",
+      "1": "Atypical Angina",
+      "2": "Non-anginal Pain",
+      "3": "Asymptomatic"
+    },
+    "desc": "Chest pain type"
+  },
+  "trestbps": {
+    "unit": "mmHg",
+    "category": "Vitals",
+    "normal": [
+      90,
+      120
+    ],
+    "desc": "Resting systolic blood pressure"
+  },
+  "chol": {
+    "unit": "mg/dL",
+    "category": "Lipid Panel",
+    "normal": [
+      125,
+      200
+    ],
+    "desc": "Serum cholesterol level"
+  },
+  "fbs": {
+    "unit": "binary",
+    "category": "Blood Chemistry",
+    "options": {
+      "0": "\u2264 120 mg/dL (Normal)",
+      "1": "> 120 mg/dL (Elevated)"
+    },
+    "desc": "Fasting blood sugar"
+  },
+  "restecg": {
+    "unit": "code",
+    "category": "Cardiac",
+    "options": {
+      "0": "Normal",
+      "1": "ST-T Wave Abnormality",
+      "2": "Left Ventricular Hypertrophy"
+    },
+    "desc": "Resting electrocardiographic results"
+  },
+  "thalach": {
+    "unit": "bpm",
+    "category": "Cardiac",
+    "normal": [
+      100,
+      175
+    ],
+    "desc": "Maximum heart rate achieved"
+  },
+  "exang": {
+    "unit": "binary",
+    "category": "Symptoms",
+    "options": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "desc": "Exercise-induced angina"
+  },
+  "oldpeak": {
+    "unit": "mm",
+    "category": "Cardiac",
+    "normal": [
+      0.0,
+      1.5
+    ],
+    "desc": "ST depression induced by exercise"
+  },
+  "slope": {
+    "unit": "grade",
+    "category": "Cardiac",
+    "options": {
+      "0": "Upsloping",
+      "1": "Flat",
+      "2": "Downsloping"
+    },
+    "desc": "Slope of peak exercise ST segment"
+  },
+  "ca": {
+    "unit": "count",
+    "category": "Imaging",
+    "normal": [
+      0,
+      0
+    ],
+    "desc": "Number of major vessels colored by fluoroscopy (0-3)"
+  },
+  "thal": {
+    "unit": "code",
+    "category": "Cardiac",
+    "options": {
+      "1": "Normal",
+      "2": "Fixed Defect",
+      "3": "Reversable Defect"
+    },
+    "desc": "Thallium stress test result"
+  },
+  "Total_Bilirubin": {
+    "unit": "mg/dL",
+    "category": "Liver Enzymes",
+    "normal": [
+      0.2,
+      1.2
+    ],
+    "desc": "Total serum bilirubin"
+  },
+  "Direct_Bilirubin": {
+    "unit": "mg/dL",
+    "category": "Liver Enzymes",
+    "normal": [
+      0.0,
+      0.3
+    ],
+    "desc": "Conjugated (direct) bilirubin"
+  },
+  "Alkaline_Phosphotase": {
+    "unit": "IU/L",
+    "category": "Liver Enzymes",
+    "normal": [
+      44,
+      147
+    ],
+    "desc": "Alkaline phosphatase level"
+  },
+  "Alamine_Aminotransferase": {
+    "unit": "IU/L",
+    "category": "Liver Enzymes",
+    "normal": [
+      7,
+      56
+    ],
+    "desc": "ALT (SGPT) liver enzyme"
+  },
+  "Aspartate_Aminotransferase": {
+    "unit": "IU/L",
+    "category": "Liver Enzymes",
+    "normal": [
+      10,
+      40
+    ],
+    "desc": "AST (SGOT) liver enzyme"
+  },
+  "Total_Protiens": {
+    "unit": "g/dL",
+    "category": "Protein Panel",
+    "normal": [
+      6.0,
+      8.3
+    ],
+    "desc": "Total blood serum protein"
+  },
+  "Albumin": {
+    "unit": "g/dL",
+    "category": "Protein Panel",
+    "normal": [
+      3.5,
+      5.0
+    ],
+    "desc": "Serum albumin level"
+  },
+  "Albumin_and_Globulin_Ratio": {
+    "unit": "ratio",
+    "category": "Protein Panel",
+    "normal": [
+      1.0,
+      2.5
+    ],
+    "desc": "A/G ratio"
+  },
+  "Gender": {
+    "unit": "category",
+    "category": "Demographics",
+    "options": {
+      "Female": "Female",
+      "Male": "Male"
+    },
+    "desc": "Biological sex"
+  },
+  "gender": {
+    "unit": "category",
+    "category": "Demographics",
+    "options": {
+      "Female": "Female",
+      "Male": "Male",
+      "Other": "Other"
+    },
+    "desc": "Biological sex"
+  },
+  "hypertension": {
+    "unit": "binary",
+    "category": "Vitals",
+    "options": {
+      "0": "No Hypertension",
+      "1": "Hypertension Diagnosed"
+    },
+    "desc": "Clinical high blood pressure"
+  },
+  "heart_disease": {
+    "unit": "binary",
+    "category": "Cardiac",
+    "options": {
+      "0": "No Heart Disease",
+      "1": "Heart Disease Diagnosed"
+    },
+    "desc": "Prior cardiovascular condition"
+  },
+  "ever_married": {
+    "unit": "category",
+    "category": "Demographics",
+    "options": {
+      "No": "No",
+      "Yes": "Yes"
+    },
+    "desc": "Marital history"
+  },
+  "work_type": {
+    "unit": "category",
+    "category": "Lifestyle",
+    "desc": "Employment background"
+  },
+  "Residence_type": {
+    "unit": "category",
+    "category": "Demographics",
+    "desc": "Residential setting"
+  },
+  "avg_glucose_level": {
+    "unit": "mg/dL",
+    "category": "Blood Chemistry",
+    "normal": [
+      70,
+      115
+    ],
+    "desc": "Average blood glucose concentration"
+  },
+  "bmi": {
+    "unit": "kg/m\u00b2",
+    "category": "Physical",
+    "normal": [
+      18.5,
+      24.9
+    ],
+    "desc": "Body mass index"
+  },
+  "smoking_status": {
+    "unit": "category",
+    "category": "Lifestyle",
+    "desc": "Tobacco use history"
+  },
+  "bp": {
+    "unit": "mmHg",
+    "category": "Vitals",
+    "normal": [
+      60,
+      80
+    ],
+    "desc": "Blood pressure"
+  },
+  "sg": {
+    "unit": "specific gravity",
+    "category": "Urine Analysis",
+    "normal": [
+      1.01,
+      1.025
+    ],
+    "desc": "Urine specific gravity"
+  },
+  "al": {
+    "unit": "scale (0-5)",
+    "category": "Urine Analysis",
+    "normal": [
+      0,
+      0
+    ],
+    "desc": "Urine albumin level"
+  },
+  "su": {
+    "unit": "scale (0-5)",
+    "category": "Urine Analysis",
+    "normal": [
+      0,
+      0
+    ],
+    "desc": "Urine sugar level"
+  },
+  "rbc": {
+    "unit": "category",
+    "category": "Urine Analysis",
+    "desc": "Red blood cells in urine (normal/abnormal)"
+  },
+  "pc": {
+    "unit": "category",
+    "category": "Urine Analysis",
+    "desc": "Pus cells in urine (normal/abnormal)"
+  },
+  "pcc": {
+    "unit": "category",
+    "category": "Urine Analysis",
+    "desc": "Pus cell clumps (present/notpresent)"
+  },
+  "ba": {
+    "unit": "category",
+    "category": "Urine Analysis",
+    "desc": "Bacteria in urine (present/notpresent)"
+  },
+  "bgr": {
+    "unit": "mg/dL",
+    "category": "Blood Chemistry",
+    "normal": [
+      70,
+      120
+    ],
+    "desc": "Blood glucose random"
+  },
+  "bu": {
+    "unit": "mg/dL",
+    "category": "Renal Panel",
+    "normal": [
+      7,
+      20
+    ],
+    "desc": "Blood urea concentration"
+  },
+  "sc": {
+    "unit": "mg/dL",
+    "category": "Renal Panel",
+    "normal": [
+      0.6,
+      1.2
+    ],
+    "desc": "Serum creatinine"
+  },
+  "sod": {
+    "unit": "mEq/L",
+    "category": "Electrolytes",
+    "normal": [
+      135,
+      145
+    ],
+    "desc": "Serum sodium level"
+  },
+  "pot": {
+    "unit": "mEq/L",
+    "category": "Electrolytes",
+    "normal": [
+      3.5,
+      5.0
+    ],
+    "desc": "Serum potassium level"
+  },
+  "hemo": {
+    "unit": "g/dL",
+    "category": "Hematology",
+    "normal": [
+      13.0,
+      17.5
+    ],
+    "desc": "Hemoglobin level"
+  },
+  "pcv": {
+    "unit": "%",
+    "category": "Hematology",
+    "normal": [
+      36,
+      50
+    ],
+    "desc": "Packed cell volume (Hematocrit)"
+  },
+  "wc": {
+    "unit": "cells/\u03bcL",
+    "category": "Hematology",
+    "normal": [
+      4500,
+      11000
+    ],
+    "desc": "White blood cell count"
+  },
+  "rc": {
+    "unit": "million/\u03bcL",
+    "category": "Hematology",
+    "normal": [
+      4.2,
+      5.9
+    ],
+    "desc": "Red blood cell count"
+  },
+  "htn": {
+    "unit": "binary",
+    "category": "History",
+    "desc": "Hypertension history"
+  },
+  "dm": {
+    "unit": "binary",
+    "category": "History",
+    "desc": "Diabetes mellitus history"
+  },
+  "cad": {
+    "unit": "binary",
+    "category": "History",
+    "desc": "Coronary artery disease"
+  },
+  "appet": {
+    "unit": "category",
+    "category": "Symptoms",
+    "desc": "Appetite (good/poor)"
+  },
+  "pe": {
+    "unit": "binary",
+    "category": "Symptoms",
+    "desc": "Pedal edema present"
+  },
+  "ane": {
+    "unit": "binary",
+    "category": "Symptoms",
+    "desc": "Anemia present"
+  }
+}

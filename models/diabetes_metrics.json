@@ -1,0 +1,33 @@
+{
+  "disease": "Diabetes",
+  "total_samples": 768,
+  "train_samples": 614,
+  "test_samples": 154,
+  "accuracy": 0.7272727272727273,
+  "precision": 0.5882352941176471,
+  "recall": 0.7407407407407407,
+  "specificity": 0.72,
+  "f1_score": 0.6557377049180327,
+  "roc_auc": 0.8235185185185185,
+  "brier_score": 0.16783658566587167,
+  "cv_accuracy_mean": 0.7655547067311773,
+  "cv_accuracy_std": 0.03297279028873617,
+  "cv_roc_auc_mean": 0.8428099231306779,
+  "cv_roc_auc_std": 0.0197906599506107,
+  "confusion_matrix": {
+    "tp": 40,
+    "fp": 28,
+    "tn": 72,
+    "fn": 14
+  },
+  "feature_importances": {
+    "Glucose": 0.3428980371852205,
+    "BMI": 0.16358970398361047,
+    "Age": 0.12445204728714937,
+    "Insulin": 0.09597279912539841,
+    "DiabetesPedigreeFunction": 0.0822135835092439,
+    "Pregnancies": 0.06974665016464954,
+    "SkinThickness": 0.06501779000015374,
+    "BloodPressure": 0.056109388744574065
+  }
+}
